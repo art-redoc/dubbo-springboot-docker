@@ -1,2 +1,2 @@
-# dubbo-docker
-Dubbo docker demo.
+# dubbo-springboot-docker
+Dubbo springboot docker demo.
