@@ -1,0 +1,18 @@
+server:
+  port: 30000
+spring:
+  dubbo:
+    application:
+      name: dubbo-spring-boot-consumer
+    registry:
+      address: ${ZOOKEEPER_SERVER:127.0.0.1}
+      port: 2181
+      protocol: zookeeper
+      register: true
+    protocol:
+      name: dubbo
+      port: 20880
+    consumer:
+      timeout: 1000
+      check: false
+      retries: 2
