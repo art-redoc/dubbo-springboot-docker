@@ -7,7 +7,7 @@ spring:
     scan: art.redoc.provider
     registry:
       address: ${ZOOKEEPER_SERVER:127.0.0.1}
-      port: 2181
+      port: 30000
       protocol: zookeeper
       register: true
     protocol:
